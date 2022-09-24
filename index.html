@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Search</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+  <link rel="icon" href="headr.gif">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head
+
+<body>
+  
+    <div class="container">
+
+    		<!--─────────────────Home────────────────-->
+	  <div id="home">
+		 <div class="filter"></div>
+		 <section class="intro"> 
+		    <h3>MyBASEMENT</h3>      
+         <form id="frmSearch" class="search-bar" method="get">
+           <input id="input" type="search" autocomplete="off" spellcheck="false" role="combobox" placeholder="Search Google" aria-live="polite">
+			  
+		  <!--────social media links─────-->
+			
+		  <div class="social-media">		
+        <a href="https://discord.gg/" target="_blank"><i class="fab fa-discord"></i></a>
+			  <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>        			 
+		 </section> 
+	  </div>  
+
+      <script type="text/javascript">
+    document.getElementById('frmSearch').onsubmit = function() {
+        window.location = 'http://www.google.com/search?q=' + document.getElementById('input').value;
+        return false;
+    }
+      </script>
+</body>
+</html>
