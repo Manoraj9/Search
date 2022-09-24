@@ -4,9 +4,13 @@
  
 #### Source
 > `index.html` html file
+> 
 > `style.css` style file
+> 
 > script already in html file
+> 
 > `search.png` background image
+> 
 > `headr.gif` webpage's header icon
-
-###### Thankyou for visiting this repo
+<hr>
+<p align="center">Thankyou for visiting this repo</p>
